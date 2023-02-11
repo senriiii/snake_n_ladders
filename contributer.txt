@@ -1,1 +1,3 @@
 The dependency for this Code is VISUAL STUDIO as it contains Graphics.h Library which is not supported by usual Compilers
+
+This is a Snake & Ladder game made by purely using C++. This project after executing shows two windows (one window for Graphics and another for Current info and Backend Process)
