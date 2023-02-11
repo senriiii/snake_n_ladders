@@ -137,4 +137,106 @@ public:
 		setfillstyle(SOLID_FILL, RED);
 		floodfill(456, 341, WHITE);
 	}
+	void snake1()
+	{
+		int m = 1;
+		int n = -1;
+		setcolor(YELLOW);
+		line(110, 72, 100, 62); //line1
+		line(110, 64, 100, 71); //line2
+		line(110, 64, 215, 64); //line2
+		line(110, 72, 210, 69); //line1
+		line(215, 64, 215, 245);
+		line(210, 69, 210, 240);
+		line(215, 245, 175, 245);
+		line(210, 240, 170, 240);
+		line(175, 245, 175, 350);
+		line(170, 240, 175, 350);
+		line(110 + n, 72 + m, 100 + n, 62 + m); //line1
+		line(110 + m, 64 + m, 100 + n, 71 + m); //line2
+		line(110 + m, 64 + n, 215 + m, 64 + n); //line2
+		line(110 + m, 72 + n, 210 + m, 69 + n); //line1
+		line(215 + m, 64 + n, 215 + m, 245 + n);
+		line(210 + m, 69 + n, 210 + m, 240 + n);
+		line(215 + m, 245 + n, 175 + m, 245 + n);
+		line(210 + m, 240 + n, 170 + m, 240 + n);
+		line(175 + m, 245 + n, 175 + m, 350 + n);
+		line(170 + m, 240 + n, 175 + m, 350 + n);
+	}
+	void snake2()
+	{
+		int m = 1;
+		int n = -1;
+		line(345, 177, 355, 167); //line1
+		line(345, 169, 355, 174); //line2
+		line(345, 169, 310, 170); //line2
+		line(345, 177, 315, 173); //line1
+		line(315, 173, 315, 248);
+		line(310, 170, 310, 243);
+		line(315, 248, 280, 248);
+		line(310, 243, 270, 243);
+		line(280, 248, 245, 245);
+		line(270, 243, 245, 245);
+		line(345 + m, 177 + n, 355 + m, 167 + n); //line1
+		line(345 + m, 169 + n, 355 + m, 174 + n); //line2
+		line(345 + m, 169 + n, 310 + m, 170 + n); //line2
+		line(345 + m, 177 + n, 315 + m, 173 + n); //line1
+		line(315 + m, 173 + n, 315 + m, 248 + n);
+		line(310 + m, 170 + n, 310 + m, 243 + n);
+		line(315 + m, 248 + n, 280 + m, 248 + n);
+		line(310 + m, 243 + n, 270 + m, 243 + n);
+		line(280 + m, 248 + n, 245 + m, 245 + n);
+		line(270 + m, 243 + n, 245 + m, 245 + n);
+	}
+	void text()
+	{
+		outtextxy(445, 50, "The Classic Game of");
+		settextstyle(GOTHIC_FONT, HORIZ_DIR, 1.5);
+		setcolor(LIGHTRED);
+		outtextxy(410, 65, "Snake & Ladder");
+		setcolor(LIGHTCYAN);
+		outtextxy(483, 159, "DICE");
+	}
+	int dice()
+	{
+		setcolor(WHITE);
+		settextstyle(GOTHIC_FONT, HORIZ_DIR, 6);
+		char strr[4];
+		int variable = rand() % 6 + 1;
+		sprintf(strr, "%d", variable);
+		outtextxy(495, 195, strr);
+		return variable;
+	}
+	void player1()
+	{
+		outtextxy(460, 297, "Player 1:");
+	}
+	void player2()
+	{
+		outtextxy(460, 347, "Player 2:");
+	}
+	void curr1(int n)
+	{
+		settextstyle(0, HORIZ_DIR, 2);
+		if (n == -1) {
+			outtextxy(535, 297, "0");
+		}
+		else {
+			char strr[4];
+			sprintf(strr, "%d", n);
+			outtextxy(535, 297, strr);
+		}
+	}
+	void curr2(int m)
+	{
+		settextstyle(0, HORIZ_DIR, 2);
+		if (m == -1) {
+			outtextxy(535, 347, "0");
+		}
+		else {
+			char strr[4];
+			sprintf(strr, "%d", m);
+			outtextxy(535, 347, strr);
+		}
+	}
 };
