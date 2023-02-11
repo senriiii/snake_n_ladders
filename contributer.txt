@@ -1,2 +1,1 @@
-swasti tyagi
-sahil aggarwal
+The dependency for this Code is VISUAL STUDIO as it contains Graphics.h Library which is not supported by usual Compilers
