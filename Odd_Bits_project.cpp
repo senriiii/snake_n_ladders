@@ -137,6 +137,132 @@ public:
 		setfillstyle(SOLID_FILL, RED);
 		floodfill(456, 341, WHITE);
 	}
+	void ladder1()
+	{
+		int m = 35;
+		int n = 50;
+		setcolor(GREEN);
+		line(53 + m, 57 + n, 55 + m, 55 + n);
+		line(53 + m, 57 + n, 133 + m, 137 + n);
+		line(55 + m, 55 + n, 135 + m, 135 + n);
+		line(133 + m, 137 + n, 135 + m, 135 + n);
+		setfillstyle(SOLID_FILL, GREEN);
+		floodfill(55 + m, 58 + n, GREEN);
+		line(68 + m, 42 + n, 70 + m, 40 + n);
+		line(68 + m, 42 + n, 148 + m, 122 + n);
+		line(70 + m, 40 + n, 150 + m, 120 + n);
+		line(148 + m, 122 + n, 150 + m, 120 + n);
+		floodfill(70 + m, 43 + n, GREEN);
+		line(65 + m, 65 + n, 78 + m, 52 + n);
+		line(68 + m, 68 + n, 81 + m, 55 + n);
+		floodfill(79 + m, 54 + n, GREEN);
+		line(75 + m, 75 + n, 88 + m, 62 + n);
+		line(78 + m, 78 + n, 91 + m, 65 + n);
+		floodfill(89 + m, 64 + n, GREEN);
+		line(85 + m, 85 + n, 98 + m, 72 + n);
+		line(88 + m, 88 + n, 101 + m, 75 + n);
+		floodfill(99 + m, 74 + n, GREEN);
+		line(95 + m, 95 + n, 108 + m, 82 + n);
+		line(98 + m, 98 + n, 111 + m, 85 + n);
+		floodfill(109 + m, 84 + n, GREEN);
+		line(105 + m, 105 + n, 118 + m, 92 + n);
+		line(108 + m, 108 + n, 121 + m, 95 + n);
+		floodfill(119 + m, 94 + n, GREEN);
+		line(115 + m, 115 + n, 128 + m, 102 + n);
+		line(118 + m, 118 + n, 131 + m, 105 + n);
+		floodfill(129 + m, 104 + n, GREEN);
+		line(125 + m, 125 + n, 138 + m, 112 + n);
+		line(128 + m, 128 + n, 141 + m, 115 + n);
+		floodfill(139 + m, 114 + n, GREEN);
+	}
+	void ladder2()
+	{
+		int p = -10;
+		int q = 60;
+		setcolor(GREEN);
+		line(100 + p, 330 - q, 140 + p, 290 - q);
+		line(100 + p, 330 - q, 102 + p, 332 - q);
+		line(102 + p, 332 - q, 142 + p, 292 - q);
+		line(142 + p, 292 - q, 140 + p, 290 - q);
+		floodfill(141 + p, 292 - q, GREEN);
+		line(115 + p, 345 - q, 155 + p, 305 - q);
+		line(115 + p, 345 - q, 117 + p, 347 - q);
+		line(117 + p, 347 - q, 157 + p, 307 - q);
+		line(157 + p, 307 - q, 155 + p, 305 - q);
+		floodfill(155 + p, 307 - q, GREEN);
+		line(112 + p, 322 - q, 125 + p, 335 - q);
+		line(114 + p, 320 - q, 127 + p, 333 - q);
+		floodfill(125 + p, 334 - q, GREEN);
+		line(122 + p, 312 - q, 135 + p, 325 - q);
+		line(124 + p, 310 - q, 137 + p, 323 - q);
+		floodfill(135 + p, 324 - q, GREEN);
+		line(132 + p, 302 - q, 145 + p, 315 - q);
+		line(134 + p, 300 - q, 147 + p, 313 - q);
+		floodfill(145 + p, 314 - q, GREEN);
+	}
+	void ladder3()
+	{
+		int p = 205;
+		int q = 235;
+		setcolor(GREEN);
+		line(100 + p, 330 - q, 140 + p, 290 - q);
+		line(100 + p, 330 - q, 102 + p, 332 - q);
+		line(102 + p, 332 - q, 142 + p, 292 - q);
+		line(142 + p, 292 - q, 140 + p, 290 - q);
+		floodfill(141 + p, 292 - q, GREEN);
+		line(115 + p, 345 - q, 155 + p, 305 - q);
+		line(115 + p, 345 - q, 117 + p, 347 - q);
+		line(117 + p, 347 - q, 157 + p, 307 - q);
+		line(157 + p, 307 - q, 155 + p, 305 - q);
+		floodfill(155 + p, 307 - q, GREEN);
+		line(112 + p, 322 - q, 125 + p, 335 - q);
+		line(114 + p, 320 - q, 127 + p, 333 - q);
+		floodfill(125 + p, 334 - q, GREEN);
+		line(122 + p, 312 - q, 135 + p, 325 - q);
+		line(124 + p, 310 - q, 137 + p, 323 - q);
+		floodfill(135 + p, 324 - q, GREEN);
+		line(132 + p, 302 - q, 145 + p, 315 - q);
+		line(134 + p, 300 - q, 147 + p, 313 - q);
+		floodfill(145 + p, 314 - q, GREEN);
+	}
+	void ladder4()
+	{
+		int m = 210;
+		int n = 260;
+		setcolor(GREEN);
+		line(53 + m, 57 + n, 55 + m, 55 + n);
+		line(53 + m, 57 + n, 133 + m, 137 + n);
+		line(55 + m, 55 + n, 135 + m, 135 + n);
+		line(133 + m, 137 + n, 135 + m, 135 + n);
+		setfillstyle(SOLID_FILL, GREEN);
+		floodfill(55 + m, 58 + n, GREEN);
+		line(68 + m, 42 + n, 70 + m, 40 + n);
+		line(68 + m, 42 + n, 148 + m, 122 + n);
+		line(70 + m, 40 + n, 150 + m, 120 + n);
+		line(148 + m, 122 + n, 150 + m, 120 + n);
+		floodfill(70 + m, 43 + n, GREEN);
+		line(65 + m, 65 + n, 78 + m, 52 + n);
+		line(68 + m, 68 + n, 81 + m, 55 + n);
+		floodfill(79 + m, 54 + n, GREEN);
+		line(75 + m, 75 + n, 88 + m, 62 + n);
+		line(78 + m, 78 + n, 91 + m, 65 + n);
+		floodfill(89 + m, 64 + n, GREEN);
+		line(85 + m, 85 + n, 98 + m, 72 + n);
+		line(88 + m, 88 + n, 101 + m, 75 + n);
+		floodfill(99 + m, 74 + n, GREEN);
+		line(95 + m, 95 + n, 108 + m, 82 + n);
+		line(98 + m, 98 + n, 111 + m, 85 + n);
+		floodfill(109 + m, 84 + n, GREEN);
+		line(105 + m, 105 + n, 118 + m, 92 + n);
+		line(108 + m, 108 + n, 121 + m, 95 + n);
+		floodfill(119 + m, 94 + n, GREEN);
+		line(115 + m, 115 + n, 128 + m, 102 + n);
+		line(118 + m, 118 + n, 131 + m, 105 + n);
+		floodfill(129 + m, 104 + n, GREEN);
+		line(125 + m, 125 + n, 138 + m, 112 + n);
+		line(128 + m, 128 + n, 141 + m, 115 + n);
+		floodfill(139 + m, 114 + n, GREEN);
+	}
 	void snake1()
 	{
 		int m = 1;
@@ -240,3 +366,216 @@ public:
 		}
 	}
 };
+class SnakesAndLadder {
+public:
+	int board[101][101] = { {0} };
+	int currpos = -1;
+	void setDefaultBoard() {
+		board[99][17] = 1;
+		board[69][46] = 1;
+		board[9][27] = 1;
+		board[39][43] = 1;
+		board[64][82] = 1;
+		board[88][92] = 1;
+	}
+};
+class StartGame : public SnakesAndLadder {
+public:
+	string playerName = "";
+	int isValidToBegin(int die) { //check if currpos is -1 and die gave 6 so player can begin
+		if (currpos == -1 && die != 6) {
+			return 0;
+		}
+		else if (currpos == -1 && die == 6) {
+			return 1;
+		} 
+		else if (currpos > -1 && die == 6) {
+			return 3;
+		}
+		else {
+			return 2;
+		}
+	}
+	int throwDie() {
+		graphics g;
+		cout << endl;
+		cout << "Its " << playerName << "'s turn" << endl;
+		cout << "Press 1 to throw the die: ";
+		string choice;
+		cin >> choice;
+		if (choice == "1") {
+			int num = g.dice();
+			cout << playerName << " got " << num << endl;
+			incrementCurrPos(num);
+			return 1;
+		}
+		else {
+			cout << "BYE! Have a Good Day!" << endl;
+			return 0;
+		}
+	};
+	void incrementCurrPos(int n) {
+		if (isValidToBegin(n)==2) {
+			if (!isMoveValid(n)) {
+				cout << playerName << "Can't go beyond 100" << endl;
+				int diff = 100 - currpos;
+				cout << "Get a number between 1 to " << diff << endl;
+				return;
+			}
+			currpos += n;
+			int sOrL = checkForLadderOrLadder(currpos);
+			if (sOrL == 0) {
+				cout << "No ladder, No snake found" << endl;
+			}
+			else {
+				if (sOrL < currpos) {
+					cout << "OH NO !!! you found a snake !!! HISSSSSSSSSSSS" << endl;
+					currpos = sOrL;
+				}
+				else {
+					cout << "OH YEAH!!! You got a Ladder" << endl;
+					currpos = sOrL;
+				}
+			}
+		}
+		else if (isValidToBegin(n) == 1) {
+				cout << "Yuhhuuuuuuuu " << playerName << "'s token is unlocked now!" << endl;
+				cout << "Take another turn" << endl;
+				currpos++;
+				throwDie();
+		}
+		else if (isValidToBegin(n) == 3) {
+			if (!isMoveValid(n)) {
+				cout << playerName << "Can't go beyond 100" << endl;
+				int diff = 100 - currpos;
+				cout << "get a number between 1 to " << diff << endl;
+				return;
+			}
+			cout << "Wuhhuuu you got a 6, take another turn" << endl;
+			currpos+=6;
+			throwDie();
+		}
+		else {
+			cout << "Get a 6 to begin your game" << endl;
+		}
+	}; //increments currpos by the die and then checks for snakes/ladders
+	bool isMoveValid(int n) {
+		if (currpos + n > 100) return false;
+		else return true;
+	}; // check if final position after incrementing die to currpos exceeds 100 or not
+	int checkForLadderOrLadder(int initial) {
+		for (int i = 1; i <= 100; i++) {
+			if (board[initial][i] == 1) {
+				return i;
+			}
+		}
+		return 0;
+	}
+};
+void draw_line(int n, char ch)
+{
+	for (int i = 0; i < n; i++) {
+		cout << ch;
+	}
+
+}
+int main()
+{
+RE: {
+	srand(time(0));
+	int gd = DETECT, gm;
+	initgraph(&gd, &gm, "");
+	graphics g;
+	g.box();
+	g.numbers();
+	g.numbers();
+	g.numbers();
+	g.numbers();
+	g.ladder1();
+	g.ladder2();
+	g.ladder3();
+	g.ladder4();
+	g.snake1();
+	g.snake2();
+	g.player1();
+	g.player2();
+	g.text();
+	int choice;
+	do {
+		cout << "\n";
+		draw_line(50, '='); cout << "\n";
+		draw_line(50, '='); cout << "\n";
+		draw_line(50, '=');
+		cout << "\nWHEN CODERS CAN'T FIND GAME, THEY MAKE THEIR OWN!\n";
+		cout << "\n\t\tSNAKE LADDER GAME\n";
+		draw_line(50, '='); cout << "\n";
+		draw_line(50, '='); cout << "\n";
+		draw_line(50, '=');;
+		StartGame player1, player2;
+		player1.setDefaultBoard();
+		player2.setDefaultBoard();
+		cout << endl;
+		cout << endl;
+		player1.playerName = "Player 1";
+		player2.playerName = "Player 2";
+		while (true) {
+			int num1 = player1.throwDie();
+			g.curr1(player1.currpos);
+			int num2 = player2.throwDie();
+			g.curr2(player2.currpos);
+			if (num1 == 0 || num2 == 0) {
+				if (player1.currpos > player2.currpos) {
+					cout << player1.playerName << " won the game!!!" << endl;
+					cout << "Congratulations !!! " << player1.playerName << ", You won the game!!\n\n";
+					draw_line(52, '#');
+					break;
+				}
+				else if (player1.currpos < player2.currpos) {
+					cout << player2.playerName << " won the game!!" << endl;
+					cout << "Congratulations !!! " << player1.playerName << ", You won the game!!\n\n";
+					draw_line(52, '#');
+					break;
+				}
+				else {
+					cout << "OH! no, There's a Tie" << endl;
+					draw_line(52, '#');
+					break;
+				}
+			}
+			else {
+				if (player1.currpos == 100) {
+					cout << endl;
+					cout << "Congratulations !!! " << player1.playerName << ", You won the game\n\n";
+					draw_line(52, '#');
+					break;
+				}
+				if (player2.currpos == 100) {
+					cout << endl;
+					cout << "Congratulations !!! " << player2.playerName << ", You won the game\n\n";
+					draw_line(52, '#');
+					break;
+				}
+			}
+			cout << "\n";
+			draw_line(52, '_');
+			cout << endl;
+		}
+		goto RE;
+		cout << endl;
+		cout << "Do you want to play again!!" << endl;
+		cout << "Press 1 to play again" << endl;
+		cout << "Press 0 to exit " << endl;
+		cin >> choice;
+		if (choice == 0) {
+			cout << "Hope to see you again!!! " << endl;
+			break;
+
+		}
+
+	} while (true);
+
+	getch();
+	}
+}
+
+
